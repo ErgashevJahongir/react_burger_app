@@ -1,0 +1,15 @@
+.burgerContent {
+    width: 100%;
+    max-width: 700px;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 750px) {
+    .burgerContent {
+        flex-direction: column;
+    }
+}
